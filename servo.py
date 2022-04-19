@@ -1,7 +1,8 @@
+from pigpio
 from gpiozero import Servo
 from time import sleep
 
-servo = Servo(7)
+servo = Servo(22)
 position = -1 
 
 # will move the servo from postion -1
