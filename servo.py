@@ -1,5 +1,10 @@
+
+import RPi.GPIO as GPIO
 from gpiozero import Servo
 from time import sleep
+
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(25, GPIO.OUT)
 
 servo = Servo(25)
 position = -1 
