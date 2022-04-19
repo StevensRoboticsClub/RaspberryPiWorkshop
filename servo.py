@@ -1,4 +1,4 @@
-from pigpio
+import pigpio
 from gpiozero import Servo
 from time import sleep
 
