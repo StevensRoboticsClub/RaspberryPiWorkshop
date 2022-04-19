@@ -4,9 +4,9 @@ from gpiozero import Servo
 from time import sleep
 
 GPIO.setmode(GPIO.BOARD)
-GPIO.setup(25, GPIO.OUT)
+GPIO.setup(7, GPIO.OUT)
 
-servo = Servo(25)
+servo = Servo(7)
 position = -1 
 
 # will move the servo from postion -1
